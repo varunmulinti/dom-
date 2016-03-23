@@ -90,3 +90,51 @@ function myMove() {
   var color = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
   elem.style.background = color;
 }
+function myFunction() {
+  var capital= document.getElementById("fname");
+  capital.value = capital.value.toUpperCase();
+}
+
+function chageon() {
+  var capital = document.getElementById("fname1");
+  capital.value = capital.value.toUpperCase();
+}
+
+function preferedBrowser() {
+  var browser = document.forms[0].browsers.value;
+  alert("you have selected " + browser);
+}
+
+
+function color(x) {
+  x.style.background = "yellow";
+}
+
+function inputxt() {
+  document.getElementById("demo").innerHTML = "You selected some text";
+}
+
+function confirmInput() {
+  var fname = document.forms[1].fname.value;
+  alert("Hello! "+ fname +" You will now be redirected to www.codeastra.com");
+}
+
+
+
+function message() {
+  alert("The form was reset");
+}
+
+function keydown() {
+  alert("You pressed a key inside the input field");
+}
+function keypress() {
+  alert("You pressed a key inside the input field");
+}
+function keyup() {
+  var capital = document.getElementById("fname2");
+  capital.value = capital.value.toUpperCase();
+}
+function writeMessage() {
+  document.forms[3].mySecondInput.value = document.forms[3].myInput.value;
+}
